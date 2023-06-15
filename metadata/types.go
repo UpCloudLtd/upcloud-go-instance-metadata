@@ -24,7 +24,7 @@ type NetworkInterface struct {
 	Index       int         `json:"index"`
 	IPAddresses []IPAddress `json:"ip_addresses"`
 	MAC         string      `json:"mac"`
-	NetworkId   string      `json:"network_id"`
+	NetworkID   string      `json:"network_id"`
 	Type        string      `json:"type"`
 }
 
